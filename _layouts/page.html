@@ -18,8 +18,29 @@
     </section>
 
     <!-- Page title -->
+    <style>
+      .project {
+        position: absolute;
+        margin-left: 0.8em;
+        margin-top: -2em;
+        border-radius: 1em;
+        padding: 0.8em 0.8em 0.3em 0.8em;
+        border: 1px solid aliceblue;
+        background: #ffe;
+        z-index: 2;
+      }
+      .project img {
+        width: 4em;
+      }
+    </style>
     <div class="container">
       <header class="major special">
+        <div class="project">
+          {% capture project-icon -%}
+          <img src="/media/icons/fiji.svg" width="96px">
+          {%- endcapture %}
+          {% include tooltip text=project-icon tooltip="I'm a tooltip!" %}
+        </div>
         <h1><strong>{{page.title}}</strong></h1>
       </header>
     </div>
