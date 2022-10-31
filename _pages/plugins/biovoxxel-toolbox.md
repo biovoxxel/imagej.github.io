@@ -9,7 +9,8 @@ pom-url: https://raw.githubusercontent.com/biovoxxel/BioVoxxel-Toolbox/master/Bi
 
 You will find all functions of the BioVoxxel Toolbox under the icon of the green BioVoxxel cube after selecting BioVoxxel Toolbox from the More Tools Icon (last Icon in the ImageJ/Fiji Icon list with the double arrow).
 
-## How to cite
+------------------------------------------------------------------------
+# How to cite
 ### Cite the Toolbox
 If you find those functions helpful and use it to generate results you publish, please consider to cite:
 
